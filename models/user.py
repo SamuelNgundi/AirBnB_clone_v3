@@ -27,8 +27,3 @@ class User(BaseModel, Base):
     def __init__(self, *args, **kwargs):
         """initializes user"""
         super().__init__(*args, **kwargs)
-<<<<<<< HEAD
-        
-    
-=======
->>>>>>> 2ff9f49b30d6a262eb17821f6c97b654c912dee0

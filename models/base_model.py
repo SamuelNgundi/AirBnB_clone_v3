@@ -57,10 +57,7 @@ class BaseModel:
         self.updated_at = datetime.utcnow()
         models.storage.new(self)
         models.storage.save()
-<<<<<<< HEAD
-=======
-
->>>>>>> 2ff9f49b30d6a262eb17821f6c97b654c912dee0
+        
     def to_dict(self):
         """returns a dictionary containing all keys/values of the instance"""
         new_dict = self.__dict__.copy()
